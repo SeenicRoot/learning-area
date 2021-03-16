@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Example of responsive image</title>
+  </head>
+  
+  <body>
+    <picture>
+      <source media="(max-width: 1199px)" srcset="fish-portrait.jpg">
+      <source media="(min-width: 1200px)" srcset="fish.jpg">
+      <img src="fish.jpg" alt="FISH">
+    </picture>
+    <img srcset="fish.jpg 1200w,
+                 fish-small.jpg 600w"
+         sizes="(max-width: 600px) 600px,
+                1200px"  
+    >
+  </body>
+</html>

@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('fonts/Merriweather-Regular.woff2') format('woff2'),
+      url('fonts/Merriweather-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Trocchi';
+  src: url('fonts/Trocchi-Bold.woff2') format('woff2'),
+      url('fonts/Trocchi-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* Typography */
+
+html {
+  font-family: "Merriweather";
+  font-size: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trocchi";
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+}
+
+body {
+  line-height: 2.2em;
+}
+
+ul {
+  list-style-type: square;
+}
+
+p, li {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 15%;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+section h2+p {
+  text-indent: 20px;
+}
+
+/* Links */
+
+a {
+  outline: none;
+  padding: 1px 1px 0;
+}
+
+a:link {
+  color: #c50000;
+}
+
+a:visited {
+  color: #630000
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline dotted;
+}
+
+a[href^="http"] {
+  background: url("external-link-52.png") no-repeat 100% 0;
+  background-size: 11px 11px;
+  padding-right: 14px;
+}
+
+/* Nav */
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav a {
+  display: inline-block;
+  height: 80px;
+  width: 200px;
+  border: 1px solid #a66;
+  margin: 5px 0;
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 4;
+  letter-spacing: 3px;
+}
+
+nav a:link, nav a:visited{
+  color: #a66;
+}
+
+nav a:focus, nav a:hover, nav:active {
+  text-decoration: underline;
+}

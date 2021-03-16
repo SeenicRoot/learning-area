@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'roboto_slabregular';
+  src: url('my-fonts/robotoslab-regular-webfont.woff2') format('woff2'),
+       url('my-fonts/robotoslab-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trocchiregular';
+  src: url('my-fonts/trocchi-webfont.woff2') format('woff2'),
+       url('my-fonts/trocchi-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* General setup */
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1, h2 {
+  font-family: 'Forum', cursive;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
