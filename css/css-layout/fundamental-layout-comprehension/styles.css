@@ -49,3 +49,46 @@ body {
   .feature {
       width: 200px;
   }
+
+/* my changes */
+
+/* layout */
+
+main {
+  display: flex;
+  column-gap: 20px;
+}
+
+article {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+}
+
+/* nav */
+
+nav {
+  position: sticky;
+  top: 0px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* article */
+
+article img {
+  float: left;
+  margin-right: 20px;
+}
